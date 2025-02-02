@@ -14,8 +14,12 @@
   "contributes": {
     "commands": [
       {
-        "command": "vanilla-mode.helloWorld",
-        "title": "Hello World"
+        "command": "vanilla-mode.applySettings",
+        "title": "vanilla: disable AI features"
+      },
+      {
+        "command": "vanilla-mode.revertSettings",
+        "title": "vanilla: revert AI features settings"
       }
     ]
   },
