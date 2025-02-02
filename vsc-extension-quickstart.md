@@ -1,42 +1,63 @@
-# Welcome to your VS Code Extension
+# VS Code Extension Quickstart
 
-## What's in the folder
+Welcome to **Vanilla Mode**! This guide will walk you through running, debugging, and testing your new VS Code extension in just a few easy steps.
 
-* This folder contains all of the files necessary for your extension.
-* `package.json` - this is the manifest file in which you declare your extension and command.
-  * The sample plugin registers a command and defines its title and command name. With this information VS Code can show the command in the command palette. It doesn’t yet need to load the plugin.
-* `extension.js` - this is the main file where you will provide the implementation of your command.
-  * The file exports one function, `activate`, which is called the very first time your extension is activated (in this case by executing the command). Inside the `activate` function we call `registerCommand`.
-  * We pass the function containing the implementation of the command as the second parameter to `registerCommand`.
+## Getting Started
 
-## Get up and running straight away
+1. **Install Dependencies**  
+   - Open your terminal in the project folder and run:
+     ```bash
+     npm install
+     ```
+   - This installs any required packages (if you have any dependencies).
 
-* Press `F5` to open a new window with your extension loaded.
-* Run your command from the command palette by pressing (`Ctrl+Shift+P` or `Cmd+Shift+P` on Mac) and typing `Hello World`.
-* Set breakpoints in your code inside `extension.js` to debug your extension.
-* Find output from your extension in the debug console.
+2. **Open in VS Code**  
+   - If you're not already there, fire up Visual Studio Code.
+   - Go to **File > Open Folder...** and select this extension's folder.
 
-## Make changes
+3. **Launch the Extension**  
+   - Hit `F5` (or go to the **Run and Debug** panel and select **"Run Extension"**).
+   - VS Code will start a new _Extension Development Host_ window with **Vanilla Mode** installed.
 
-* You can relaunch the extension from the debug toolbar after changing code in `extension.js`.
-* You can also reload (`Ctrl+R` or `Cmd+R` on Mac) the VS Code window with your extension to load your changes.
+## Run & Debug
 
-## Explore the API
+- **Extension Development Host**  
+  - This separate instance of VS Code runs your extension in isolation.  
+  - Any changes to your extension’s code will be reflected once you **Reload** or relaunch the Extension Development Host.
+  
+- **Debugging Tips**  
+  - Use `console.log()` statements in your code to see output in the Debug Console.
+  - Set breakpoints like you would in any other VS Code project to step through your extension code.
 
-* You can open the full set of our API when you open the file `node_modules/@types/vscode/index.d.ts`.
+## Test the Extension
 
-## Run tests
+1. **Disable AI Features**  
+   - In the Extension Development Host, open the Command Palette (`Ctrl+Shift+P` or `Cmd+Shift+P`).
+   - Run **`vanilla: disable AI features`** to apply the plain-text mode settings.
+2. **Revert AI Features**  
+   - Run **`vanilla: revert AI features settings`** to remove those settings and go back to your default workspace configuration.
 
-* Install the [Extension Test Runner](https://marketplace.visualstudio.com/items?itemName=ms-vscode.extension-test-runner)
-* Open the Testing view from the activity bar and click the Run Test" button, or use the hotkey `Ctrl/Cmd + ; A`
-* See the output of the test result in the Test Results view.
-* Make changes to `test/extension.test.js` or create new test files inside the `test` folder.
-  * The provided test runner will only consider files matching the name pattern `**.test.js`.
-  * You can create folders inside the `test` folder to structure your tests any way you want.
+## Editing the Extension
 
-## Go further
+- **extension.js**  
+  - Main entry point for your extension, where you can modify behavior, add commands, and handle activation logic.
+- **package.json**  
+  - Contains metadata like name, version, and contribution points (commands, activation events, etc.).
 
- * [Follow UX guidelines](https://code.visualstudio.com/api/ux-guidelines/overview) to create extensions that seamlessly integrate with VS Code's native interface and patterns.
- * [Publish your extension](https://code.visualstudio.com/api/working-with-extensions/publishing-extension) on the VS Code extension marketplace.
- * Automate builds by setting up [Continuous Integration](https://code.visualstudio.com/api/working-with-extensions/continuous-integration).
- * Integrate to the [report issue](https://code.visualstudio.com/api/get-started/wrapping-up#issue-reporting) flow to get issue and feature requests reported by users.
+## Publishing (Optional)
+
+- **Package & Publish**  
+  - If you plan to share your extension with the world, install `vsce`:
+    ```bash
+    npm install -g vsce
+    ```
+  - Bump up your version in `package.json`, then package or publish:
+    ```bash
+    vsce package
+    vsce publish
+    ```
+  
+## Have Fun!
+
+- That’s all you need to start hacking on **Vanilla Mode**.  
+- Remember to keep it simple, stay calm, and avoid letting AI code completions run your life (unless you revert to them). Happy coding!

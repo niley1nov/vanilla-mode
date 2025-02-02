@@ -1,42 +1,25 @@
 {
-  "name": "vanilla-mode",
-  "displayName": "Vanilla Mode",
-  "description": "Disable AI features like IntelliSense, auto-complete, and suggestion popups to provide a plain text editing experience.",
-  "version": "0.0.1",
-  "engines": {
-    "vscode": "^1.96.0"
-  },
-  "categories": [
-    "Other"
-  ],
-  "activationEvents": [],
-  "main": "./extension.js",
-  "contributes": {
-    "commands": [
-      {
-        "command": "vanilla-mode.applySettings",
-        "title": "vanilla: disable AI features"
-      },
-      {
-        "command": "vanilla-mode.revertSettings",
-        "title": "vanilla: revert AI features settings"
-      }
-    ]
-  },
-  "scripts": {
-    "lint": "eslint .",
-    "pretest": "npm run lint",
-    "test": "vscode-test"
-  },
-  "devDependencies": {
-    "@types/mocha": "^10.0.10",
-    "@types/node": "20.x",
-    "@types/vscode": "^1.96.0",
-    "@vscode/test-cli": "^0.0.10",
-    "@vscode/test-electron": "^2.4.1",
-    "eslint": "^9.16.0"
-  },
-  "dependencies": {
-    "vanilla-mode": "file:"
-  }
+	"name": "vanilla-mode",
+	"displayName": "Vanilla Mode",
+	"description": "Disable AI features like IntelliSense, auto-complete, and suggestion popups to provide a plain text editing experience.",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.96.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"main": "./extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "vanilla-mode.applySettings",
+				"title": "vanilla: disable AI features"
+			},
+			{
+				"command": "vanilla-mode.revertSettings",
+				"title": "vanilla: revert AI features settings"
+			}
+		]
+	}
 }

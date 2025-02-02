@@ -1,65 +1,51 @@
-# vanilla-mode README
+# Vanilla Mode 🍦
 
-This is the README for your extension "vanilla-mode". After writing up a brief description, we recommend including the following sections.
+Welcome to **Vanilla Mode** – the VS Code extension that strips away all the fancy AI fluff and gives you a good ol' plain text editing experience! If you’re tired of IntelliSense, auto-complete, and suggestion popups trying to guess your every move, this is the extension for you. Sometimes, you just want your code as simple as vanilla ice cream – no extra toppings! 🍨
 
-## Features
+## Features 🚀
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+- **Disable IntelliSense:** Wave goodbye to unsolicited code suggestions.
+- **Disable Auto-Complete:** Keep your focus on your code, not on suggestions.
+- **Disable Suggestion Popups:** Enjoy a distraction-free zone.
+- **Disable AI Features:** Because sometimes, less really is more.
 
-For example if there is an image subfolder under your extension project workspace:
+## How to Use 🔧
 
-\!\[feature X\]\(images/feature-x.png\)
+1. **Activate Vanilla Mode:**
+   - Open the Command Palette (`Ctrl+Shift+P` or `Cmd+Shift+P`).
+   - Run the command: **`vanilla: disable AI features`**
+   - Bask in the glory of a clean, minimalist workspace where your code is all that matters.
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+2. **Revert Vanilla Mode:**
+   - Miss the smart suggestions? No worries!
+   - Open the Command Palette.
+   - Run the command: **`vanilla: revert AI features settings`**
+   - And just like that, your usual VS Code magic is back!
 
-## Requirements
+## Why Vanilla Mode? 🎉
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+Because sometimes, you just want to keep things simple! Whether you're a coding purist, a minimalist at heart, or just someone who loves vanilla ice cream (no extra sprinkles, please), Vanilla Mode is here to help you focus on what truly matters – your code. It's like a digital detox for your editor, letting you code without the constant buzz of AI chatter.
 
-## Extension Settings
+## Installation 📦
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+1. **Clone or Install:**
+   - Clone this repository or download Vanilla Mode from the VS Code Marketplace.
+2. **Get Started:**
+   - Open it in VS Code and follow the instructions above to toggle your settings.
+3. **Enjoy the Simplicity:**
+   - Revel in the peace of a distraction-free coding environment.
 
-For example:
+## Contributing 🤝
 
-This extension contributes the following settings:
+Got a brilliant idea or a bug fix? We’d love your help!  
+- **Fork** the repository.
+- Make your changes.
+- **Submit a pull request** and join our quest to keep VS Code delightfully vanilla.
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+## License 📄
 
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
+This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## Working with Markdown
-
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+Happy coding and remember: when life gets too flashy, sometimes you just need to go vanilla! 🍦✨
