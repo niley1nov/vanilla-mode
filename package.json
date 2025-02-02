@@ -1,10 +1,16 @@
 {
 	"name": "vanilla-mode",
+	"publisher": "NilaySharma",
 	"displayName": "Vanilla Mode",
 	"description": "Disable AI features like IntelliSense, auto-complete, and suggestion popups to provide a plain text editing experience.",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"engines": {
 		"vscode": "^1.96.0"
+	},
+	"icon": "images/logo.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/niley1nov/vanilla-mode.git"
 	},
 	"categories": [
 		"Other"
