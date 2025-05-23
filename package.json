@@ -27,8 +27,5 @@
 				"title": "Vanilla: revert AI features settings"
 			}
 		]
-	},
-	"dependencies": {
-		"vanilla-mode": "file:"
 	}
 }
