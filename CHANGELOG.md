@@ -1,9 +1,11 @@
-# Change Log
+# Changelog
 
-All notable changes to the "vanilla-mode" extension will be documented in this file.
+All notable changes to this project will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## [0.1.0] - 2025-05-23
 
-## [Unreleased]
+### Added
+- Feature to hide Git blame annotations, status bar info, and gutter diff markers for a cleaner UI.
 
-- Initial release
+### Fixed
+- Prevented the extension from crashing if the Git or GitLens extensions are disabled or uninstalled.

@@ -33,9 +33,9 @@ Welcome to **Vanilla Mode**! This guide will walk you through running, debugging
 
 1. **Disable AI Features**  
    - In the Extension Development Host, open the Command Palette (`Ctrl+Shift+P` or `Cmd+Shift+P`).
-   - Run **`vanilla: disable AI features`** to apply the plain-text mode settings.
+   - Run **`Vanilla: disable AI features`** to apply the plain-text mode settings.
 2. **Revert AI Features**  
-   - Run **`vanilla: revert AI features settings`** to remove those settings and go back to your default workspace configuration.
+   - Run **`Vanilla: revert AI features settings`** to remove those settings and go back to your default workspace configuration.
 
 ## Editing the Extension
 

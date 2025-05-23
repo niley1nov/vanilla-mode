@@ -8,18 +8,19 @@ Welcome to **Vanilla Mode** – the VS Code extension that strips away all the f
 - **Disable Auto-Complete:** Keep your focus on your code, not on suggestions.
 - **Disable Suggestion Popups:** Enjoy a distraction-free zone.
 - **Disable AI Features:** Because sometimes, less really is more.
+- **Hide Git Annotations:** Removes inline author blame, status bar info, and diff markers for a cleaner UI.
 
 ## How to Use 🔧
 
 1. **Activate Vanilla Mode:**
    - Open the Command Palette (`Ctrl+Shift+P` or `Cmd+Shift+P`).
-   - Run the command: **`vanilla: disable AI features`**
+   - Run the command: **`Vanilla: disable AI features`**
    - Bask in the glory of a clean, minimalist workspace where your code is all that matters.
 
 2. **Revert Vanilla Mode:**
    - Miss the smart suggestions? No worries!
    - Open the Command Palette.
-   - Run the command: **`vanilla: revert AI features settings`**
+   - Run the command: **`Vanilla: revert AI features settings`**
    - And just like that, your usual VS Code magic is back!
 
 ## Why Vanilla Mode? 🎉
